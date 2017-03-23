@@ -1,14 +1,14 @@
 {
     "chapterid": 1,
-    "namespace": "elixir-nl",
+    "namespace": "elixir-se",
     "formatversion": 1,
     "questions":
     [
 	{
 	    "questionid" : 1, "namespace": "core",
 	    "experts" : [
-		{ "name": "Barend Mons",
-		  "email": "barend.mons@dtls.nl"}]
+		{ "name": "Niclas Jareborg",
+		  "email": "niclas.jareborg@nbis.se"}]
 	}
     ]
 }
