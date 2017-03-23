@@ -7,8 +7,8 @@
 	{
 	    "questionid" : 1, "namespace": "core",
 	    "experts" : [
-		{ "name": "Niclas Jareborg",
-		  "email": "niclas.jareborg@nbis.se"}]
+		{ "name": "Barend Mons",
+		  "email": "barend.mons@dtls.nl"}]
 	}
     ]
 }
