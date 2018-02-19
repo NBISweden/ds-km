@@ -55,7 +55,7 @@
 	{
 	    "questionid": 5, "type": "option",
 	    "precondition": { "questionid": 3 },
-	    "title": "Do you knpw in what format the reference data is available?",
+	    "title": "Do you know in what format the reference data is available?",
 	    "text": "Do you know the data format of the reference data? Is this suitable for your work? Does it need to be converted?",
 	    "answers": 
 	    [
@@ -175,15 +175,15 @@
 	    "title": "How will you be accessing the data?",
 	    "answers":
 	    [
-		{   "id": 0, "label": "Already have physical copy" },
-		{   "id": 1, "label": "Will make physical copy" },
+		{   "id": 0, "label": "Already have a copy" },
+		{   "id": 1, "label": "Will download or get a copy" },
 		{   "id": 2, "label": "Will use it online" }
 	    ]
 	},
 	{
 	    "questionid": 15, "type": "option",
 	    "precondition": { "questionid": 9 },
-	    "title": "Do you knpw in what format the data is available?",
+	    "title": "Do you know in what format the data is available?",
 	    "text": "Do you know the data format of the data? Is this suitable for your work? Does it need to be converted?",
 	    "answers": 
 	    [
@@ -199,7 +199,7 @@
 	    "answers": 
 	    [
 		{    "id": 0, "label": "It is a fixed data set, this will not influence reproducibility of my results" },
-		{    "id": 1, "label": "It may change, I will make sure a copy of the version I used will be available with my results" } 
+		{    "id": 1, "label": "It may change", "advice": "Make sure a copy of the version you use will be available with my results" } 
 	    ]
 	},
 	{
@@ -235,7 +235,8 @@
 	    [
 		{   "id": 0, "label": "No" },
 		{   "id": 1, "label": "Yes, I will make sure to make this data available with my results." }
-	    ]
+	    ],
+	    "references": [{"type": "dmpbook", "chapter": "1.11.1"}]
 	},
 	{
 	    "questionid": 29, "type": "option",
@@ -252,13 +253,15 @@
 	    "questionid": 30, "type": "text",
 	    "precondition": { "questionid": 29, "answerid": 1 },
 	    "title": "What will the Intellectual Property be like?",
-	    "text": "Who will own the rights to the reference data set? Who will be able to use it?"
+	    "text": "Who will own the rights to the reference data set? Who will be able to use it?",
+	    "references": [{"type": "dmpbook", "chapter": "1.12.1"}]
 	},
 	{
 	    "questionid": 31, "type": "text",
 	    "precondition": { "questionid": 29, "answerid": 1 },
 	    "title": "How will you maintain it?",
-	    "text": "How will maintenance be paid for in the long run? Will you host it yourself or deposit it with a repository? How will you deal with requests for help? And with requests for adding data?"
+	    "text": "How will maintenance be paid for in the long run? Will you host it yourself or deposit it with a repository? How will you deal with requests for help? And with requests for adding data?",
+	    "references": [{"type": "dmpbook", "chapter": "1.12.2"}]
 	},
 	{
 	    "questionid": 32, "type": "text",
